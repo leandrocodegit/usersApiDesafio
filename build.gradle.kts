@@ -37,9 +37,10 @@ dependencies {
 	//JWT
 	implementation("io.jsonwebtoken:jjwt:0.9.1")
 
+	//H2
+	runtimeOnly("com.h2database:h2")
+	testRuntimeOnly("com.h2database:h2")
 
-
-	runtimeOnly("org.postgresql:postgresql")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
