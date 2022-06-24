@@ -20,7 +20,7 @@ pipeline {
     }
     post {
         failure {
-            mail to: 'eosh@gft.commm', subject: 'Build failed', body: 'Please fix!'
+            mail to: 'eosh@gft.com', subject: 'Build failed', body: 'Please fix!'
         }
     }
 }
