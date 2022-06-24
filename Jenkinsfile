@@ -11,7 +11,7 @@ pipeline {
                 }
             }
             steps {
-                sh './gradlew clean build'
+               sudo sh './gradlew clean build'
             }
         }
         stage ('Build & Push docker image') {
